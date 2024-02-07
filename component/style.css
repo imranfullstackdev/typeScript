@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #FCEDDA;
+}
+.mainHeader {
+  font-size: 50px;
+}
+.navlink {
+  text-decoration: none;
+  font-size: 30px;
+  /* display: inline-flex; */
+  margin: auto;
+  margin: 12px;
+  width: fit-content;
+  justify-content: center;
+}
+a:active {
+  color: #000;
+  border-bottom: 2px solid black;
+}
+.navbarLink {
+  justify-content: space-around;
+  display: flex;
+}
+.todoForm > input {
+  width: 75%;
+  padding: 12px;
+  margin: 1rem;
+  border-radius: 3rem;
+}
+.formbtn {
+  width: 15%;
+  /* margin: 1rem; */
+  padding: 17px;
+  border-radius: 19px;
+  cursor: pointer;
+  color: green;
+  background: green;
+  color: whitesmoke;
+  font-weight: 900;
+  border: none;
+}
+ul li {
+  list-style-type: none;
+  padding: 10px;
+  margin-left: 3rem;
+  border-top: 1px solid #ded7d7;
+  border-bottom: 1px solid #ded7d7;
+}
+ul label {
+  margin-left: 3rem;
+}
+ul button {
+  float: right;
+  background-color: red;
+  color: white;
+  padding: 4px;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+}
+.completedtsk {
+  list-style-type: none;
+  text-decoration: line-through;
+  color: red;
+  background: #eb8d8d;
+}
